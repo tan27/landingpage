@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h3 {
+    text-align: center;
+}
+
+header, .hero {
+    background: linear-gradient(41deg, rgb(17, 174, 247) 25%, rgba(66,175,255,1) 79%); 
+    color: cornsilk;   
+}
+
+/***********NAVBAR**************/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    color: cornsilk;
+}
+
+.logo {
+    margin-left: 20rem;
+    padding: 2rem;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    filter: drop-shadow(0 0 0.9rem rgb(255, 255, 255));
+}
+
+nav {
+    margin-left: auto;
+}
+
+.nav-links li  {
+    display: inline-block;
+    padding: 1rem;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.nav-links a:hover {
+    color: rgb(218, 214, 218);
+}
+
+.ctn1 {
+    background-color: transparent;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 1px solid cornsilk;
+    font-size: 1.1rem;
+    color: cornsilk;
+
+}
+
+.ctn1:hover {
+    color: rgb(218, 214, 218);
+    border: 1px solid rgb(218, 214, 218);
+}
+
+.ctna {
+    display: inline-block;
+    overflow: hidden;
+    width: 120px;
+    margin-left: 1rem;
+    margin-right: 5rem;
+}
+
+
+/***********COVER**************/
+
+.hero {
+    height: 75vh;
+    margin-bottom: 3rem;
+    padding-top: 5rem;
+    display: flex;
+}
+
+.herotext {
+    padding: 12rem 0rem 0rem 30rem;
+    font-size: 20px;
+    width: 80rem;
+    height: auto;
+}
+
+
+h1 {
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.cta {
+    background-color: transparent;
+    border: 1px solid cornsilk;
+    border-radius: 5px;
+    padding: 0.8em 1.2em;
+    font-size: 1.1rem;
+    color: cornsilk;
+    outline: none;
+}
+
+.cta:hover {
+    color: rgb(218, 214, 218);
+    border: 1px solid rgb(218, 214, 218);
+}
+
+
+.phonemockup {
+    height: 60vh;
+    filter: drop-shadow(7px 5px 5px #a6afaf);
+    padding-left: 6rem;
+}
+
+/***********FEATURES**************/
+
+.features{
+    height: 45vh;
+    padding: 3rem;
+    color: black;
+}
+
+.features h3 {
+    font-size: 2.3rem;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(490px, 1fr));
+    text-align: center;
+    padding: 3rem;
+    gap: 9rem;
+}
+
+.fa {
+    padding: 3rem;
+    color: rgb(17, 174, 247);
+}
+
+/***********SECTION**************/
+
+.responsive {
+    background-color: rgb(218, 214, 218);
+    height: 50vh;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y:hidden;
+    overflow-x: hidden;
+    
+}
+
+.res-pic img {
+    height: 90vh;
+}
+
+.res-text {
+    width: 60rem;
+    justify-content: right;
+    align-items: center;
+    margin: 0;
+}
+
+
+/***********SECTION**************/
+
+.mobile {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.mob-pic img {
+    max-height: 30rem;
+}
+
+.mob-text {
+    width: 60rem;
+}
+
+
+/***********SECTION**************/
+.linear {
+    height: 25vh;
+    background: linear-gradient(41deg, rgb(17, 174, 247) 15%, rgba(66,175,255,1) 79%);
+    position: relative;
+}
+
+
+.linear h2 {
+    text-align: center;
+    padding-top: 5rem;
+    color: cornsilk;
+    font-size: 2rem;
+
+}
+
+
+.cta2 {
+    background-color: transparent;
+    border: 1px solid cornsilk;
+    border-radius: 5px;
+    padding: 0.8em 1.2em;
+    font-size: 1.1rem;
+    color: cornsilk;
+
+    position: absolute;
+    top: 50%;
+    left: 46%;
+}
+
+.cta2:hover {
+    color:rgb(218, 214, 218);
+    border: 1px solid rgb(218, 214, 218);
+}
+
+
+
+/***********FOOTER**************/
+
+footer {
+    padding-top: 3rem;
+    text-align: center;
+    height: 10vh;
+}
+
+
+#sticky {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99;
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
