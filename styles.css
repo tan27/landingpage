@@ -101,6 +101,7 @@ nav {
 @media screen and (max-width: 1500px) {
     .hamburger {
         display: block;
+        top: 5rem;
         padding: 1rem;
         justify-content: center;
     }
@@ -112,11 +113,11 @@ nav {
         flex-direction: column;
         background-color: rgb(17, 174, 247);
         width: 100%;
+
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-        justify-content: center;
     }
 
     .ctna {
@@ -351,8 +352,9 @@ h1 {
 }
 
 @media screen and (max-width: 300px) {
-    .linear {
-        display: none;
+    .linear h2 {
+        font-size: 1rem;
+        
     }
 }
 
