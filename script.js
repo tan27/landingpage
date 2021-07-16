@@ -7,9 +7,10 @@ const bars = document.querySelector(".fa-bars")
 
 window.onscroll = function() {scrollFunction()};
 sticky.addEventListener('click', topFunction)
+
 hamburger.addEventListener("click", mobileMenu);
-navLinks.forEach(n => n.addEventListener("click", closeMenu));
 bars.addEventListener('click', hamFunction);
+navLinks.forEach(n => n.addEventListener("click", closeMenu));
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -36,4 +37,5 @@ function hamFunction() {
 
 function closeMenu() {
     navMenu.classList.remove("active");
+    bars.classList.add("fa-bars")
 }
