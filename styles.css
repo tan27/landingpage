@@ -241,8 +241,8 @@ h1 {
 
 .container {
   position: relative;
-  width: 400px;
-  height: 700px;
+  width: 500px;
+  height: 650px;
   transform: rotate(-30deg) skew(20deg);
   margin-top: 25rem;
 }
