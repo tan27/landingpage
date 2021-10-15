@@ -235,14 +235,14 @@ h1 {
 }
 
 .res-text {
-  width: 55rem;
-  padding-left: 25rem;
+  width: 70rem;
+  padding-left: 15rem;
 }
 
 .container {
   position: relative;
   width: 400px;
-  height: 640px;
+  height: 700px;
   transform: rotate(-30deg) skew(20deg);
   margin-top: 25rem;
 }
