@@ -215,15 +215,15 @@ h1 {
 .responsive {
   background-color: rgb(36, 102, 179);
   background: linear-gradient(
-    41deg,
-    rgb(8, 168, 241) 15%,
-    rgba(66, 175, 255) 79%
-  );
+      41deg,
+      rgb(8, 168, 241) 15%,
+      rgba(66, 175, 255) 79%
+    );
   height: 95vh;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   display: flex;
   align-items: center;
-  padding: 24rem;
+  padding: 27rem;
   color: white;
   clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 0px 100%);
   text-align: center;
@@ -276,16 +276,19 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
 .responsive h3 {
     justify-content: center;
     text-align: center;
     font-size: 2rem;
     font-family: "Montserrat";
     }
+
 .res-text {
     max-width: 55rem;
     padding: 0;
     }
+
   .container {
     display: none;
   }
@@ -332,18 +335,18 @@ h1 {
 .features p {
   padding: 3rem;
   width: 600px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 @media screen and (max-width: 580px) {
   .features p {
     padding: 1rem;
     width: fit-content;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
-/***********SECTION**************/
+/***********MOBILE**************/
 .mobile {
   width: 100%;
   min-height: 90vh;
@@ -373,6 +376,7 @@ h1 {
 .mob-text {
   width: 40rem;
   text-align: center;
+  font-size: 1.3rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -407,6 +411,7 @@ h1 {
   color: rgb(255, 255, 255);
   font-size: 2.3rem;
   padding: 1.2rem;
+  text-align: center;
 }
 
 .cta2 {
@@ -478,10 +483,10 @@ footer {
 
 @media screen and (max-width: 500px) {
   #sticky {
-    bottom: 0.3rem;
-    right: 8rem;
     width: 3rem;
     height: 3rem;
+    right: 0.3rem;
+    bottom: 0.3rem;
   }
 }
 
